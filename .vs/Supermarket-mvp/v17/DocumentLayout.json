@@ -1,0 +1,52 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\el_go\\source\\repos\\Supermarket-mvp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6E830E9C-EC8A-42F0-A48D-8A1B970DE72F}|Supermarket-mvp.csproj|C:\\Users\\el_go\\source\\repos\\Supermarket-mvp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6E830E9C-EC8A-42F0-A48D-8A1B970DE72F}|Supermarket-mvp.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E830E9C-EC8A-42F0-A48D-8A1B970DE72F}|Supermarket-mvp.csproj|c:\\users\\el_go\\source\\repos\\supermarket-mvp\\supermarket-mvp.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{6E830E9C-EC8A-42F0-A48D-8A1B970DE72F}|Supermarket-mvp.csproj|solutionrelative:supermarket-mvp.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Supermarket-mvp",
+              "DocumentMoniker": "C:\\Users\\el_go\\source\\repos\\Supermarket-mvp\\Supermarket-mvp.csproj",
+              "RelativeDocumentMoniker": "Supermarket-mvp.csproj",
+              "ToolTip": "C:\\Users\\el_go\\source\\repos\\Supermarket-mvp\\Supermarket-mvp.csproj",
+              "RelativeToolTip": "Supermarket-mvp.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-07T22:29:38.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\el_go\\source\\repos\\Supermarket-mvp\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\el_go\\source\\repos\\Supermarket-mvp\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T22:25:58.184Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
