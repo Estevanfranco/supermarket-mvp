@@ -11,16 +11,16 @@
       "RelativeMoniker": "D:0:0:{6E830E9C-EC8A-42F0-A48D-8A1B970DE72F}|Supermarket-mvp.csproj|solutionrelative:views\\paymodeview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{6E830E9C-EC8A-42F0-A48D-8A1B970DE72F}|Supermarket-mvp.csproj|c:\\users\\el_go\\source\\repos\\supermarket-mvp\\views\\ipaymodeview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E830E9C-EC8A-42F0-A48D-8A1B970DE72F}|Supermarket-mvp.csproj|solutionrelative:views\\ipaymodeview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6E830E9C-EC8A-42F0-A48D-8A1B970DE72F}|Supermarket-mvp.csproj|c:\\users\\el_go\\source\\repos\\supermarket-mvp\\models\\paymodemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6E830E9C-EC8A-42F0-A48D-8A1B970DE72F}|Supermarket-mvp.csproj|solutionrelative:models\\paymodemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6E830E9C-EC8A-42F0-A48D-8A1B970DE72F}|Supermarket-mvp.csproj|c:\\users\\el_go\\source\\repos\\supermarket-mvp\\models\\ipaymoderepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6E830E9C-EC8A-42F0-A48D-8A1B970DE72F}|Supermarket-mvp.csproj|solutionrelative:models\\ipaymoderepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E830E9C-EC8A-42F0-A48D-8A1B970DE72F}|Supermarket-mvp.csproj|c:\\users\\el_go\\source\\repos\\supermarket-mvp\\views\\ipaymodeview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E830E9C-EC8A-42F0-A48D-8A1B970DE72F}|Supermarket-mvp.csproj|solutionrelative:views\\ipaymodeview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -40,7 +40,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\el_go\\source\\repos\\Supermarket-mvp\\Program.cs*",
               "RelativeToolTip": "Program.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-10T03:09:13.211Z",
               "EditorCaption": ""
@@ -51,27 +51,28 @@
               "Title": "PayModeView.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\el_go\\source\\repos\\Supermarket-mvp\\Views\\PayModeView.cs",
               "RelativeDocumentMoniker": "Views\\PayModeView.cs",
-              "ToolTip": "C:\\Users\\el_go\\source\\repos\\Supermarket-mvp\\Views\\PayModeView.cs [Dise\u00F1o]*",
-              "RelativeToolTip": "Views\\PayModeView.cs [Dise\u00F1o]*",
+              "ToolTip": "C:\\Users\\el_go\\source\\repos\\Supermarket-mvp\\Views\\PayModeView.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Views\\PayModeView.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-09T03:01:22.663Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "IPayModeView.cs",
               "DocumentMoniker": "C:\\Users\\el_go\\source\\repos\\Supermarket-mvp\\Views\\IPayModeView.cs",
               "RelativeDocumentMoniker": "Views\\IPayModeView.cs",
               "ToolTip": "C:\\Users\\el_go\\source\\repos\\Supermarket-mvp\\Views\\IPayModeView.cs",
               "RelativeToolTip": "Views\\IPayModeView.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAzwCAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T02:52:53.53Z"
+              "WhenOpened": "2024-10-09T02:52:53.53Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "IPayModeRepository.cs",
               "DocumentMoniker": "C:\\Users\\el_go\\source\\repos\\Supermarket-mvp\\Models\\IPayModeRepository.cs",
               "RelativeDocumentMoniker": "Models\\IPayModeRepository.cs",
@@ -83,7 +84,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "PayModeModel.cs",
               "DocumentMoniker": "C:\\Users\\el_go\\source\\repos\\Supermarket-mvp\\Models\\PayModeModel.cs",
               "RelativeDocumentMoniker": "Models\\PayModeModel.cs",
