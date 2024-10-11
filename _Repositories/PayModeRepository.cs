@@ -21,17 +21,60 @@ namespace Supermarket_mvp._Repositories
 
         public void Add(PayModeModel payModeModel)
         {
-            throw new NotImplementedException();
+            using (var connection = new SqlConnection(connectionString))
+            using (var command = new SqlCommand())
+            {
+                connection.Open(); // Abre la conexión a la base de datos
+
+                command.Connection = connection; // Asocia el comando a la conexión abierta
+                command.CommandText = "INSERT INTO Paymode VALUES (@name, @observation)"; // Establece el comando SQL para insertar datos
+
+                // Agrega parámetros al comando para prevenir inyecciones SQL y mejorar la legibilidad
+                command.Parameters.AddWithValue("@name", payModeModel.Name);
+                command.Parameters.AddWithValue("@observation", payModeModel.Observation);
+
+                command.ExecuteNonQuery(); // Ejecuta el comando SQL, insertando los datos
+            }
         }
 
         public void Delete(int id)
         {
-            throw new NotImplementedException();
+           
+                using (var connection = new SqlConnection(connectionString))
+                using (var command = new SqlCommand())
+                {
+                    connection.Open(); // Abre la conexión a la base de datos
+
+                    command.Connection = connection; // Asocia el comando a la conexión abierta
+                    command.CommandText = "DELETE FROM PayMode WHERE Pay_Mode_Id = @id"; // Establece el comando SQL para eliminar datos
+
+                    command.Parameters.Add("@id", SqlDbType.Int).Value = id; // Agrega un parámetro para el ID
+
+                    command.ExecuteNonQuery(); // Ejecuta el comando SQL, eliminando el registro
+                }
+            
         }
 
         public void Edit(PayModeModel payModeModel)
         {
-            throw new NotImplementedException();
+            using (var connection = new SqlConnection(connectionString))
+            using (var command = new SqlCommand())
+            {
+                connection.Open(); // Abre la conexión a la base de datos
+
+                command.Connection = connection; // Asocia el comando a la conexión abierta
+                command.CommandText = @"UPDATE Paymode
+                             SET Pay_Mode_Name = @name,
+                                 Pay_Mode_Observation = @observation
+                             WHERE Pay_Mode_Id = @id"; // Establece el comando SQL para actualizar datos
+
+                // Agrega parámetros al comando para prevenir inyecciones SQL y mejorar la legibilidad
+                command.Parameters.Add("@name", SqlDbType.NVarChar).Value = payModeModel.Name;
+                command.Parameters.Add("@observation", SqlDbType.NVarChar).Value =payModeModel.Observation;
+                command.Parameters.Add("@id", SqlDbType.Int).Value= payModeModel.Id;
+
+                command.ExecuteNonQuery(); // Ejecuta el comando SQL, actualizando los datos
+            }
         }
 
         public IEnumerable<PayModeModel> GetAll()

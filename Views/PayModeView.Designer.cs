@@ -213,7 +213,7 @@
             tabPagePayModeDetail.Location = new Point(4, 29);
             tabPagePayModeDetail.Name = "tabPagePayModeDetail";
             tabPagePayModeDetail.Padding = new Padding(3);
-            tabPagePayModeDetail.Size = new Size(792, 321);
+            tabPagePayModeDetail.Size = new Size(792, 316);
             tabPagePayModeDetail.TabIndex = 1;
             tabPagePayModeDetail.Text = "Pay Mode Detail";
             tabPagePayModeDetail.UseVisualStyleBackColor = true;
@@ -230,8 +230,10 @@
             // 
             TxtPayModeId.Location = new Point(18, 39);
             TxtPayModeId.Name = "TxtPayModeId";
+            TxtPayModeId.ReadOnly = true;
             TxtPayModeId.Size = new Size(125, 27);
             TxtPayModeId.TabIndex = 12;
+            TxtPayModeId.Text = "0";
             // 
             // TxtPayModeName
             // 
