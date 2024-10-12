@@ -11,8 +11,6 @@ namespace Supermarket_mvp._Repositories
 {
     internal class PayModeRepository : BaseRepository, IPayModeRepository
     {
-      
-
 
         public PayModeRepository(string connectionString)
         {
@@ -39,20 +37,20 @@ namespace Supermarket_mvp._Repositories
 
         public void Delete(int id)
         {
-           
-                using (var connection = new SqlConnection(connectionString))
-                using (var command = new SqlCommand())
-                {
-                    connection.Open(); // Abre la conexión a la base de datos
 
-                    command.Connection = connection; // Asocia el comando a la conexión abierta
-                    command.CommandText = "DELETE FROM PayMode WHERE Pay_Mode_Id = @id"; // Establece el comando SQL para eliminar datos
+            using (var connection = new SqlConnection(connectionString))
+            using (var command = new SqlCommand())
+            {
+                connection.Open(); // Abre la conexión a la base de datos
 
-                    command.Parameters.Add("@id", SqlDbType.Int).Value = id; // Agrega un parámetro para el ID
+                command.Connection = connection; // Asocia el comando a la conexión abierta
+                command.CommandText = "DELETE FROM PayMode WHERE Pay_Mode_Id = @id"; // Establece el comando SQL para eliminar datos
 
-                    command.ExecuteNonQuery(); // Ejecuta el comando SQL, eliminando el registro
-                }
-            
+                command.Parameters.Add("@id", SqlDbType.Int).Value = id; // Agrega un parámetro para el ID
+
+                command.ExecuteNonQuery(); // Ejecuta el comando SQL, eliminando el registro
+            }
+
         }
 
         public void Edit(PayModeModel payModeModel)
@@ -64,14 +62,14 @@ namespace Supermarket_mvp._Repositories
 
                 command.Connection = connection; // Asocia el comando a la conexión abierta
                 command.CommandText = @"UPDATE Paymode
-                             SET Pay_Mode_Name = @name,
-                                 Pay_Mode_Observation = @observation
-                             WHERE Pay_Mode_Id = @id"; // Establece el comando SQL para actualizar datos
+                       SET Pay_Mode_Name = @name,
+                           Pay_Mode_Observation = @observation
+                       WHERE Pay_Mode_Id = @id"; // Establece el comando SQL para actualizar datos
 
                 // Agrega parámetros al comando para prevenir inyecciones SQL y mejorar la legibilidad
                 command.Parameters.Add("@name", SqlDbType.NVarChar).Value = payModeModel.Name;
-                command.Parameters.Add("@observation", SqlDbType.NVarChar).Value =payModeModel.Observation;
-                command.Parameters.Add("@id", SqlDbType.Int).Value= payModeModel.Id;
+                command.Parameters.Add("@observation", SqlDbType.NVarChar).Value = payModeModel.Observation;
+                command.Parameters.Add("@id", SqlDbType.Int).Value = payModeModel.Id;
 
                 command.ExecuteNonQuery(); // Ejecuta el comando SQL, actualizando los datos
             }
@@ -103,7 +101,7 @@ namespace Supermarket_mvp._Repositories
             return payModeList;
         }
 
-  
+
 
         public IEnumerable<PayModeModel> GetByValue(string value)
         {
@@ -117,8 +115,8 @@ namespace Supermarket_mvp._Repositories
                     connection.Open();
                     command.Connection = connection;
                     command.CommandText = @"SELECT * FROM PayMode 
-                                WHERE Pay_Mode_Id=@id OR Pay_Mode_Name LIKE @name+'%'
-                                ORDER BY Pay_Mode_Id DESC";
+                          WHERE Pay_Mode_Id=@id OR Pay_Mode_Name LIKE @name+'%'
+                          ORDER BY Pay_Mode_Id DESC";
                     command.Parameters.Add("@id", SqlDbType.Int).Value = payModeId;
                     command.Parameters.Add("@name", SqlDbType.NVarChar).Value = payModeName;
                     using (var reader = command.ExecuteReader())
@@ -136,5 +134,8 @@ namespace Supermarket_mvp._Repositories
             }
             return payModeList;
         }
+
+
+
     }
 }
