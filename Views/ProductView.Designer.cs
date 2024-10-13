@@ -118,7 +118,7 @@
             tabPagePayModeList.Padding = new Padding(3);
             tabPagePayModeList.Size = new Size(792, 399);
             tabPagePayModeList.TabIndex = 0;
-            tabPagePayModeList.Text = "Pay Mode List";
+            tabPagePayModeList.Text = "Products List";
             tabPagePayModeList.UseVisualStyleBackColor = true;
             // 
             // BtnClose
@@ -198,9 +198,9 @@
             label2.AutoSize = true;
             label2.Location = new Point(18, 12);
             label2.Name = "label2";
-            label2.Size = new Size(122, 20);
+            label2.Size = new Size(114, 20);
             label2.TabIndex = 0;
-            label2.Text = "Search Pay Mode";
+            label2.Text = "Search Products";
             // 
             // tabPagePayModeDetail
             // 
@@ -219,7 +219,7 @@
             tabPagePayModeDetail.Padding = new Padding(3);
             tabPagePayModeDetail.Size = new Size(792, 399);
             tabPagePayModeDetail.TabIndex = 1;
-            tabPagePayModeDetail.Text = "Pay Mode Detail";
+            tabPagePayModeDetail.Text = "Products Detail";
             tabPagePayModeDetail.UseVisualStyleBackColor = true;
             // 
             // TxtProductStock
@@ -316,7 +316,7 @@
             Controls.Add(tabControl1);
             Controls.Add(panel1);
             Name = "ProductView";
-            Text = "Pay Mode Management";
+            Text = "PRODUCTS";
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();

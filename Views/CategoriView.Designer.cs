@@ -196,9 +196,9 @@
             label2.AutoSize = true;
             label2.Location = new Point(18, 12);
             label2.Name = "label2";
-            label2.Size = new Size(122, 20);
+            label2.Size = new Size(128, 20);
             label2.TabIndex = 0;
-            label2.Text = "Search Pay Mode";
+            label2.Text = "Search Categories";
             // 
             // tabPageCategoriDetail
             // 
@@ -215,7 +215,7 @@
             tabPageCategoriDetail.Padding = new Padding(3);
             tabPageCategoriDetail.Size = new Size(792, 316);
             tabPageCategoriDetail.TabIndex = 1;
-            tabPageCategoriDetail.Text = "Pay Mode Detail";
+            tabPageCategoriDetail.Text = "Categories Detail";
             tabPageCategoriDetail.UseVisualStyleBackColor = true;
             // 
             // TxtCategoriDescription

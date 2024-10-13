@@ -28,38 +28,35 @@ namespace Supermarket_mvp.Views
 
         private void AssociateAndRaiseViewEvents()
         {
-            BtnSearch.Click += delegate { SearchEvent?.Invoke(this, EventArgs.Empty); };
+           
 
-            TxtSearch.KeyDown += (s, e) =>
+            
+
+            BtnNew.Click += delegate
             {
-                if (e.KeyCode == Keys.Enter)
-                {
-                    SearchEvent?.Invoke(this, EventArgs.Empty);
-                }
-            };
-
-            BtnNew.Click += delegate { 
                 AddNewEvent?.Invoke(this, EventArgs.Empty);
 
                 tabControl1.TabPages.Remove(tabPagePayModeList);
                 tabControl1.TabPages.Add(tabPagePayModeDetail);
                 tabPagePayModeDetail.Text = "Add New Pay Mode";
             };
-            
-            BtnEdit.Click += delegate { 
+
+            BtnEdit.Click += delegate
+            {
                 EditEvent?.Invoke(this, EventArgs.Empty);
 
                 tabControl1.TabPages.Remove(tabPagePayModeList);
                 tabControl1.TabPages.Add(tabPagePayModeDetail);
                 tabPagePayModeDetail.Text = "Edit Pay Mode";
             };
-            
-            
-            BtnDelete.Click += delegate {
+
+
+            BtnDelete.Click += delegate
+            {
                 var result = MessageBox.Show(
                 "Are you sure you want to delete the selected Pay Mode",
                 "Warning",
-                MessageBoxButtons.YesNo,MessageBoxIcon.Warning);
+                MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
 
                 if (result == DialogResult.Yes)
                 {
@@ -69,11 +66,12 @@ namespace Supermarket_mvp.Views
 
 
             };
-           
-            BtnSave.Click += delegate { 
+
+            BtnSave.Click += delegate
+            {
                 SaveEvent?.Invoke(this, EventArgs.Empty);
 
-                if (isSuccessful) 
+                if (isSuccessful)
                 {
                     tabControl1.TabPages.Remove(tabPagePayModeDetail);
                     tabControl1.TabPages.Add(tabPagePayModeList);
@@ -81,8 +79,9 @@ namespace Supermarket_mvp.Views
 
                 MessageBox.Show(Message);
             };
-            
-            BtnCancel.Click += delegate { 
+
+            BtnCancel.Click += delegate
+            {
                 CancelEvent?.Invoke(this, EventArgs.Empty);
 
                 tabControl1.TabPages.Remove(tabPagePayModeDetail);
@@ -91,37 +90,37 @@ namespace Supermarket_mvp.Views
             };
         }
 
-        public string PayModeId 
+        public string PayModeId
         {
             get { return TxtPayModeId.Text; }
             set { TxtPayModeId.Text = value; }
         }
-        public string PayModeName 
+        public string PayModeName
         {
             get { return TxtPayModeName.Text; }
             set { TxtPayModeName.Text = value; }
         }
-        public string PayModeObservation 
+        public string PayModeObservation
         {
             get { return TxtPayModeObservation.Text; }
             set { TxtPayModeObservation.Text = value; }
         }
-        public string SearchValue 
+        public string SearchValue
         {
             get { return TxtSearch.Text; }
             set { TxtSearch.Text = value; }
         }
-        public bool IsEdit 
+        public bool IsEdit
         {
             get { return isEdit; }
             set { isEdit = value; }
         }
-        public bool IsSuccessful 
+        public bool IsSuccessful
         {
             get { return isSuccessful; }
             set { isSuccessful = value; }
         }
-        public string Message 
+        public string Message
         {
             get { return message; }
             set { message = value; }
@@ -160,6 +159,15 @@ namespace Supermarket_mvp.Views
             return instance;
         }
 
-       
+        private void BtnSearch_Click(object sender, EventArgs e)
+        {
+            TxtSearch.KeyDown += (s, e) =>
+            {
+                if (e.KeyCode == Keys.Enter)
+                {
+                    SearchEvent?.Invoke(this, EventArgs.Empty);
+                }
+            };
+        }
     }
 }
