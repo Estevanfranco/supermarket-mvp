@@ -43,6 +43,8 @@
             TxtSearch = new TextBox();
             label2 = new Label();
             tabPagePayModeDetail = new TabPage();
+            TxtProductStock = new TextBox();
+            label3 = new Label();
             TxtProductPrice = new TextBox();
             TxtPayModeId = new TextBox();
             TxtProductName = new TextBox();
@@ -51,8 +53,6 @@
             LabelObservation = new Label();
             LabelName = new Label();
             LabelID = new Label();
-            TxtProductStock = new TextBox();
-            label3 = new Label();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             tabControl1.SuspendLayout();
@@ -87,9 +87,9 @@
             label1.AutoSize = true;
             label1.Location = new Point(171, 55);
             label1.Name = "label1";
-            label1.Size = new Size(74, 20);
+            label1.Size = new Size(66, 20);
             label1.TabIndex = 0;
-            label1.Text = "Pay Mode";
+            label1.Text = "Products";
             label1.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // tabControl1
@@ -116,7 +116,7 @@
             tabPagePayModeList.Location = new Point(4, 29);
             tabPagePayModeList.Name = "tabPagePayModeList";
             tabPagePayModeList.Padding = new Padding(3);
-            tabPagePayModeList.Size = new Size(792, 316);
+            tabPagePayModeList.Size = new Size(792, 399);
             tabPagePayModeList.TabIndex = 0;
             tabPagePayModeList.Text = "Pay Mode List";
             tabPagePayModeList.UseVisualStyleBackColor = true;
@@ -222,6 +222,23 @@
             tabPagePayModeDetail.Text = "Pay Mode Detail";
             tabPagePayModeDetail.UseVisualStyleBackColor = true;
             // 
+            // TxtProductStock
+            // 
+            TxtProductStock.Location = new Point(18, 248);
+            TxtProductStock.Multiline = true;
+            TxtProductStock.Name = "TxtProductStock";
+            TxtProductStock.Size = new Size(125, 31);
+            TxtProductStock.TabIndex = 15;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new Point(18, 225);
+            label3.Name = "label3";
+            label3.Size = new Size(100, 20);
+            label3.TabIndex = 14;
+            label3.Text = "Product Stock";
+            // 
             // TxtProductPrice
             // 
             TxtProductPrice.Location = new Point(18, 174);
@@ -290,23 +307,6 @@
             LabelID.Size = new Size(93, 20);
             LabelID.TabIndex = 3;
             LabelID.Text = "Pay Mode ID";
-            // 
-            // TxtProductStock
-            // 
-            TxtProductStock.Location = new Point(18, 248);
-            TxtProductStock.Multiline = true;
-            TxtProductStock.Name = "TxtProductStock";
-            TxtProductStock.Size = new Size(125, 31);
-            TxtProductStock.TabIndex = 15;
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Location = new Point(18, 225);
-            label3.Name = "label3";
-            label3.Size = new Size(100, 20);
-            label3.TabIndex = 14;
-            label3.Text = "Product Stock";
             // 
             // ProductView
             // 

@@ -10,23 +10,23 @@ namespace Supermarket_mvp.Models
 {
     internal class ProductModel
     {
-        [DisplayName("Product  Id")]
+        [DisplayName("Product_Id")]
         public int Id { get; set; }
 
 
-        [DisplayName("Product Name")]
+       /* [DisplayName("Product_Name")]
         [Required(ErrorMessage = "Pay mode name is required")]
-        [StringLength(50, MinimumLength = 3, ErrorMessage = "Pay mode name must be between 3 and 50 characters")]
+        [StringLength(50, MinimumLength = 3, ErrorMessage = "Pay mode name must be between 3 and 50 characters")]*/
         public string Name { get; set; }
 
-        [DisplayName("Product Price")]
+        /*[DisplayName("Product_Price")]
         [Required(ErrorMessage = "Pay mode observation is required")]
-        [StringLength(200, MinimumLength = 3, ErrorMessage = "Pay mode observation must be between 3 and 200 characters")]
+        [StringLength(10, MinimumLength = 3, ErrorMessage = "Pay mode observation must be between 3 and 200 characters")]*/
         public string Price { get; set; }
 
-        [DisplayName("Product Stock")]
+      /*  [DisplayName("Product_Stock")]
         [Required(ErrorMessage = "Pay mode observation is required")]
-        [StringLength(200, MinimumLength = 3, ErrorMessage = "Pay mode observation must be between 3 and 200 characters")]
+        [StringLength(10, MinimumLength = 3, ErrorMessage = "Pay mode observation must be between 3 and 200 characters")]*/
         public string Stock { get; set; }
 
     }

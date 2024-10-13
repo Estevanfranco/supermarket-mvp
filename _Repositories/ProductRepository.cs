@@ -24,7 +24,7 @@ namespace Supermarket_mvp._Repositories
             {
                 connection.Open();
                 command.Connection = connection;
-                command.CommandText = "INSERT INTO Product VALUES (@name, @price, @stock, @categorie_Id)";
+                command.CommandText = "INSERT INTO Prodcuts VALUES (@name, @price, @stock)";
                 command.Parameters.Add("@name", SqlDbType.NVarChar).Value = productModel.Name;
                 command.Parameters.Add("@price", SqlDbType.Int).Value = productModel.Price;
                 command.Parameters.Add("@stock", SqlDbType.Int).Value = productModel.Stock;
@@ -40,7 +40,7 @@ namespace Supermarket_mvp._Repositories
             {
                 connection.Open();
                 command.Connection = connection;
-                command.CommandText = "DELETE FROM Product WHERE Product_Id = @id";
+                command.CommandText = "DELETE FROM Prodcuts WHERE Product_Id = @id";
                 command.Parameters.Add("@id", SqlDbType.Int).Value = id;
                 command.ExecuteNonQuery();
             }
@@ -53,7 +53,7 @@ namespace Supermarket_mvp._Repositories
             {
                 connection.Open();
                 command.Connection = connection;
-                command.CommandText = @"UPDATE Product SET Product_Name = @name,
+                command.CommandText = @"UPDATE Prodcuts SET Product_Name = @name,
                                         Product_Price = @price,
                                         Product_Stock = @stock,
                                        
@@ -76,7 +76,7 @@ namespace Supermarket_mvp._Repositories
             {
                 connection.Open();
                 command.Connection = connection;
-                command.CommandText = "SELECT * FROM Product ORDER BY Product_Id DESC";
+                command.CommandText = "SELECT * FROM Prodcuts ORDER BY Product_Id DESC";
                 using (var reader = command.ExecuteReader())
                 {
                     while (reader.Read())
@@ -109,7 +109,7 @@ namespace Supermarket_mvp._Repositories
             {
                 connection.Open();
                 command.Connection = connection;
-                command.CommandText = @"SELECT * FROM Product WHERE Product_Id=@id or Product_Name LIKE @name+ '%'
+                command.CommandText = @"SELECT * FROM Prodcuts WHERE Product_Id=@id or Product_Name LIKE @name+ '%'
                                       ORDER by Product_Id DESC";
                 command.Parameters.Add("@id", SqlDbType.Int).Value = productId;
                 command.Parameters.Add("@name", SqlDbType.NVarChar).Value = productName;
