@@ -12,12 +12,12 @@ namespace Supermarket_mvp.Presenters
     {
         private ICustomersView view;
         private ICustomersRepository repository;
-        private BindingSource categoriBindingSource;
+        private BindingSource customersBindingSource;
         private IEnumerable<CustomersModel> customersList;
 
         public CustomersPresenter(ICustomersView view, ICustomersRepository repository)
         {
-            this.categoriBindingSource = new BindingSource();
+            this.customersBindingSource = new BindingSource();
 
             this.view = view;
             this.repository = repository;
@@ -29,7 +29,7 @@ namespace Supermarket_mvp.Presenters
             this.view.SaveEvent += SaveCustomers;
             this.view.CancelEvent += CancelAction;
 
-            this.view.SetCustomerListBindingSource(customersBindingSource);
+            this.view.SetCustomersListBildingSource(customersBindingSource);
 
             LoadAllCustomersList();
 
@@ -52,8 +52,13 @@ namespace Supermarket_mvp.Presenters
         {
             var customers = new CustomersModel();
             customers.Id = Convert.ToInt32(view.CustomersId);
-            customers.Name = view.CustomersName;
-            customers.Description = view.CustomersDescription;
+            customers.Document = view.CustomersDocNum;
+            customers.FirstName = view.CustomersFirstName;
+            customers.LastName = view.CustomersLastName;
+            customers.Address = view.CustomersAddress;
+            customers.Birthday = view.CustomersBirthday;
+            customers.PhoneNumber = view.CustomersPhoneNumber;
+            customers.Email = view.CustomersEmail;
 
             try
             {
@@ -82,8 +87,13 @@ namespace Supermarket_mvp.Presenters
         private void CleanViewFields()
         {
             view.CustomersId = "0";
-            view.CustomersName = "";
-            view.CustomersDescription = "";
+            view.CustomersDocNum = "";
+            view.CustomersFirstName = "";
+            view.CustomersLastName = "";
+            view.CustomersAddress = "";
+            view.CustomersBirthday = "";
+            view.CustomersPhoneNumber = "";
+            view.CustomersEmail = "";
         }
 
         private void DeleteSelectedCustomers(object? sender, EventArgs e)
@@ -108,8 +118,16 @@ namespace Supermarket_mvp.Presenters
             var customers = (CustomersModel)customersBindingSource.Current;
 
             view.CustomersId = customers.Id.ToString();
-            view.CustomersName = customers.Name;
-            view.CustomersDescription = customers.Description;
+            /*view.CustomersName = customers.Name;
+            view.CustomersDescription = customers.Description;*/
+            
+            view.CustomersDocNum = customers.Document;
+            view.CustomersFirstName = customers.FirstName;
+            view.CustomersLastName = customers.LastName;
+            view.CustomersAddress = customers.Address;
+            view.CustomersBirthday = customers.Birthday;
+            view.CustomersPhoneNumber = customers.PhoneNumber;
+            view.CustomersEmail = customers.Email;
 
             view.IsEdit = true;
         }

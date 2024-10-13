@@ -3,31 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\el_go\\source\\repos\\Supermarket-mvp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6E830E9C-EC8A-42F0-A48D-8A1B970DE72F}|Supermarket-mvp.csproj|c:\\users\\el_go\\source\\repos\\supermarket-mvp\\views\\paymodeview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E830E9C-EC8A-42F0-A48D-8A1B970DE72F}|Supermarket-mvp.csproj|solutionrelative:views\\paymodeview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6E830E9C-EC8A-42F0-A48D-8A1B970DE72F}|Supermarket-mvp.csproj|c:\\users\\el_go\\source\\repos\\supermarket-mvp\\_repositories\\customersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E830E9C-EC8A-42F0-A48D-8A1B970DE72F}|Supermarket-mvp.csproj|solutionrelative:_repositories\\customersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E830E9C-EC8A-42F0-A48D-8A1B970DE72F}|Supermarket-mvp.csproj|c:\\users\\el_go\\source\\repos\\supermarket-mvp\\_repositories\\paymoderepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E830E9C-EC8A-42F0-A48D-8A1B970DE72F}|Supermarket-mvp.csproj|solutionrelative:_repositories\\paymoderepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6E830E9C-EC8A-42F0-A48D-8A1B970DE72F}|Supermarket-mvp.csproj|c:\\users\\el_go\\source\\repos\\supermarket-mvp\\_repositories\\categoriesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E830E9C-EC8A-42F0-A48D-8A1B970DE72F}|Supermarket-mvp.csproj|solutionrelative:_repositories\\categoriesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\el_go\\AppData\\Local\\SourceServer\\f71c22435df04116c442e59630a248df77cfdfc2bbefd814d2730c09516fb41f\\_Repositories\\PayModeRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6E830E9C-EC8A-42F0-A48D-8A1B970DE72F}|Supermarket-mvp.csproj|c:\\users\\el_go\\source\\repos\\supermarket-mvp\\models\\customersmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E830E9C-EC8A-42F0-A48D-8A1B970DE72F}|Supermarket-mvp.csproj|solutionrelative:models\\customersmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E830E9C-EC8A-42F0-A48D-8A1B970DE72F}|Supermarket-mvp.csproj|c:\\users\\el_go\\source\\repos\\supermarket-mvp\\views\\customersview .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E830E9C-EC8A-42F0-A48D-8A1B970DE72F}|Supermarket-mvp.csproj|solutionrelative:views\\customersview .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6E830E9C-EC8A-42F0-A48D-8A1B970DE72F}|Supermarket-mvp.csproj|c:\\users\\el_go\\source\\repos\\supermarket-mvp\\presenters\\customerspresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E830E9C-EC8A-42F0-A48D-8A1B970DE72F}|Supermarket-mvp.csproj|solutionrelative:presenters\\customerspresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E830E9C-EC8A-42F0-A48D-8A1B970DE72F}|Supermarket-mvp.csproj|c:\\users\\el_go\\source\\repos\\supermarket-mvp\\presenters\\mainpresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E830E9C-EC8A-42F0-A48D-8A1B970DE72F}|Supermarket-mvp.csproj|solutionrelative:presenters\\mainpresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6E830E9C-EC8A-42F0-A48D-8A1B970DE72F}|Supermarket-mvp.csproj|c:\\users\\el_go\\source\\repos\\supermarket-mvp\\views\\customersview .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6E830E9C-EC8A-42F0-A48D-8A1B970DE72F}|Supermarket-mvp.csproj|solutionrelative:views\\customersview .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E830E9C-EC8A-42F0-A48D-8A1B970DE72F}|Supermarket-mvp.csproj|c:\\users\\el_go\\source\\repos\\supermarket-mvp\\views\\paymodeview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6E830E9C-EC8A-42F0-A48D-8A1B970DE72F}|Supermarket-mvp.csproj|solutionrelative:views\\paymodeview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{6E830E9C-EC8A-42F0-A48D-8A1B970DE72F}|Supermarket-mvp.csproj|c:\\users\\el_go\\source\\repos\\supermarket-mvp\\models\\categorimodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E830E9C-EC8A-42F0-A48D-8A1B970DE72F}|Supermarket-mvp.csproj|solutionrelative:models\\categorimodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6E830E9C-EC8A-42F0-A48D-8A1B970DE72F}|Supermarket-mvp.csproj|c:\\users\\el_go\\source\\repos\\supermarket-mvp\\views\\icustomersview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6E830E9C-EC8A-42F0-A48D-8A1B970DE72F}|Supermarket-mvp.csproj|solutionrelative:views\\icustomersview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E830E9C-EC8A-42F0-A48D-8A1B970DE72F}|Supermarket-mvp.csproj|c:\\users\\el_go\\source\\repos\\supermarket-mvp\\views\\categoriview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6E830E9C-EC8A-42F0-A48D-8A1B970DE72F}|Supermarket-mvp.csproj|solutionrelative:views\\categoriview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E830E9C-EC8A-42F0-A48D-8A1B970DE72F}|Supermarket-mvp.csproj|c:\\users\\el_go\\source\\repos\\supermarket-mvp\\views\\categoriview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E830E9C-EC8A-42F0-A48D-8A1B970DE72F}|Supermarket-mvp.csproj|solutionrelative:views\\categoriview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -37,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -49,67 +58,105 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PayModeRepository.cs",
-              "DocumentMoniker": "C:\\Users\\el_go\\AppData\\Local\\SourceServer\\f71c22435df04116c442e59630a248df77cfdfc2bbefd814d2730c09516fb41f\\_Repositories\\PayModeRepository.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\SourceServer\\f71c22435df04116c442e59630a248df77cfdfc2bbefd814d2730c09516fb41f\\_Repositories\\PayModeRepository.cs",
-              "ToolTip": "C:\\Users\\el_go\\AppData\\Local\\SourceServer\\f71c22435df04116c442e59630a248df77cfdfc2bbefd814d2730c09516fb41f\\_Repositories\\PayModeRepository.cs",
-              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\SourceServer\\f71c22435df04116c442e59630a248df77cfdfc2bbefd814d2730c09516fb41f\\_Repositories\\PayModeRepository.cs",
-              "ViewState": "AgIAAGYAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T19:01:30.718Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "PayModeRepository.cs",
-              "DocumentMoniker": "C:\\Users\\el_go\\source\\repos\\Supermarket-mvp\\_Repositories\\PayModeRepository.cs",
-              "RelativeDocumentMoniker": "_Repositories\\PayModeRepository.cs",
-              "ToolTip": "C:\\Users\\el_go\\source\\repos\\Supermarket-mvp\\_Repositories\\PayModeRepository.cs",
-              "RelativeToolTip": "_Repositories\\PayModeRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIQAAAARAAAAAAAAAA==",
+              "Title": "CategoriesRepository.cs",
+              "DocumentMoniker": "C:\\Users\\el_go\\source\\repos\\Supermarket-mvp\\_Repositories\\CategoriesRepository.cs",
+              "RelativeDocumentMoniker": "_Repositories\\CategoriesRepository.cs",
+              "ToolTip": "C:\\Users\\el_go\\source\\repos\\Supermarket-mvp\\_Repositories\\CategoriesRepository.cs",
+              "RelativeToolTip": "_Repositories\\CategoriesRepository.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAowHMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T18:57:34.349Z",
+              "WhenOpened": "2024-10-13T21:49:01.346Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PayModeView.cs",
-              "DocumentMoniker": "C:\\Users\\el_go\\source\\repos\\Supermarket-mvp\\Views\\PayModeView.cs",
-              "RelativeDocumentMoniker": "Views\\PayModeView.cs",
-              "ToolTip": "C:\\Users\\el_go\\source\\repos\\Supermarket-mvp\\Views\\PayModeView.cs",
-              "RelativeToolTip": "Views\\PayModeView.cs",
-              "ViewState": "AgIAAJYAAAAAAAAAAADgv60AAAAAAAAAAAAAAA==",
+              "Title": "CustomersRepository.cs",
+              "DocumentMoniker": "C:\\Users\\el_go\\source\\repos\\Supermarket-mvp\\_Repositories\\CustomersRepository.cs",
+              "RelativeDocumentMoniker": "_Repositories\\CustomersRepository.cs",
+              "ToolTip": "C:\\Users\\el_go\\source\\repos\\Supermarket-mvp\\_Repositories\\CustomersRepository.cs",
+              "RelativeToolTip": "_Repositories\\CustomersRepository.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAgwDcAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T18:47:18.127Z",
+              "WhenOpened": "2024-10-13T21:14:38.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CustomersModel.cs",
+              "DocumentMoniker": "C:\\Users\\el_go\\source\\repos\\Supermarket-mvp\\Models\\CustomersModel.cs",
+              "RelativeDocumentMoniker": "Models\\CustomersModel.cs",
+              "ToolTip": "C:\\Users\\el_go\\source\\repos\\Supermarket-mvp\\Models\\CustomersModel.cs",
+              "RelativeToolTip": "Models\\CustomersModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T21:47:00.282Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "PayModeView.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\el_go\\source\\repos\\Supermarket-mvp\\Views\\PayModeView.cs",
-              "RelativeDocumentMoniker": "Views\\PayModeView.cs",
-              "ToolTip": "C:\\Users\\el_go\\source\\repos\\Supermarket-mvp\\Views\\PayModeView.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Views\\PayModeView.cs [Dise\u00F1o]",
+              "Title": "CategoriModel.cs",
+              "DocumentMoniker": "C:\\Users\\el_go\\source\\repos\\Supermarket-mvp\\Models\\CategoriModel.cs",
+              "RelativeDocumentMoniker": "Models\\CategoriModel.cs",
+              "ToolTip": "C:\\Users\\el_go\\source\\repos\\Supermarket-mvp\\Models\\CategoriModel.cs",
+              "RelativeToolTip": "Models\\CategoriModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T18:47:15.773Z",
+              "WhenOpened": "2024-10-13T21:46:29.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CustomersPresenter.cs",
+              "DocumentMoniker": "C:\\Users\\el_go\\source\\repos\\Supermarket-mvp\\Presenters\\CustomersPresenter.cs",
+              "RelativeDocumentMoniker": "Presenters\\CustomersPresenter.cs",
+              "ToolTip": "C:\\Users\\el_go\\source\\repos\\Supermarket-mvp\\Presenters\\CustomersPresenter.cs",
+              "RelativeToolTip": "Presenters\\CustomersPresenter.cs",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T21:46:15.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CategoriView.cs",
+              "DocumentMoniker": "C:\\Users\\el_go\\source\\repos\\Supermarket-mvp\\Views\\CategoriView.cs",
+              "RelativeDocumentMoniker": "Views\\CategoriView.cs",
+              "ToolTip": "C:\\Users\\el_go\\source\\repos\\Supermarket-mvp\\Views\\CategoriView.cs",
+              "RelativeToolTip": "Views\\CategoriView.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T21:44:19.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CategoriView.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\el_go\\source\\repos\\Supermarket-mvp\\Views\\CategoriView.cs",
+              "RelativeDocumentMoniker": "Views\\CategoriView.cs",
+              "ToolTip": "C:\\Users\\el_go\\source\\repos\\Supermarket-mvp\\Views\\CategoriView.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Views\\CategoriView.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T21:32:44.388Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "MainPresenter.cs",
-              "DocumentMoniker": "C:\\Users\\el_go\\source\\repos\\Supermarket-mvp\\Presenters\\MainPresenter.cs",
-              "RelativeDocumentMoniker": "Presenters\\MainPresenter.cs",
-              "ToolTip": "C:\\Users\\el_go\\source\\repos\\Supermarket-mvp\\Presenters\\MainPresenter.cs",
-              "RelativeToolTip": "Presenters\\MainPresenter.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBYAAAA9AAAAAAAAAA==",
+              "Title": "CustomersView .cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\el_go\\source\\repos\\Supermarket-mvp\\Views\\CustomersView .cs",
+              "RelativeDocumentMoniker": "Views\\CustomersView .cs",
+              "ToolTip": "C:\\Users\\el_go\\source\\repos\\Supermarket-mvp\\Views\\CustomersView .cs [Dise\u00F1o]",
+              "RelativeToolTip": "Views\\CustomersView .cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T18:46:16.322Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-13T21:30:44.15Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
@@ -119,22 +166,9 @@
               "RelativeDocumentMoniker": "Views\\ICustomersView.cs",
               "ToolTip": "C:\\Users\\el_go\\source\\repos\\Supermarket-mvp\\Views\\ICustomersView.cs",
               "RelativeToolTip": "Views\\ICustomersView.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAUwAgAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowAgAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-13T18:23:32.411Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CustomersView .cs",
-              "DocumentMoniker": "C:\\Users\\el_go\\source\\repos\\Supermarket-mvp\\Views\\CustomersView .cs",
-              "RelativeDocumentMoniker": "Views\\CustomersView .cs",
-              "ToolTip": "C:\\Users\\el_go\\source\\repos\\Supermarket-mvp\\Views\\CustomersView .cs",
-              "RelativeToolTip": "Views\\CustomersView .cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAJgAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T18:20:19.29Z",
               "EditorCaption": ""
             }
           ]
