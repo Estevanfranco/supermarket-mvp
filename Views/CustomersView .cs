@@ -24,14 +24,7 @@ namespace Supermarket_mvp.Views
         }
         private void AssociateAndRaiseViewEvents()
         {
-            BtnSearch.Click += delegate { SearchEvent?.Invoke(this, EventArgs.Empty); };
-            TxtSearch.KeyDown += (s, e) =>
-            {
-                if (e.KeyCode == Keys.Enter)
-                {
-                    SearchEvent?.Invoke(this, EventArgs.Empty);
-                }
-            };
+           
             BtnNew.Click += delegate
             {
                 AddNewEvent?.Invoke(this, EventArgs.Empty);
@@ -152,7 +145,7 @@ namespace Supermarket_mvp.Views
         public event EventHandler SaveEvent;
         public event EventHandler CancelEvent;
 
-        
+
         public void SetCustomersListBildingSource(BindingSource CustomersList)
         {
             DgCustomers.DataSource = CustomersList;
@@ -180,6 +173,16 @@ namespace Supermarket_mvp.Views
             return instance;
         }
 
-        
+        private void BtnSearch_Click(object sender, EventArgs e)
+        {
+            BtnSearch.Click += delegate { SearchEvent?.Invoke(this, EventArgs.Empty); };
+            TxtSearch.KeyDown += (s, e) =>
+            {
+                if (e.KeyCode == Keys.Enter)
+                {
+                    SearchEvent?.Invoke(this, EventArgs.Empty);
+                }
+            };
+        }
     }
 }

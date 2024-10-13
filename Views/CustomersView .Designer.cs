@@ -191,6 +191,7 @@
             BtnSearch.Size = new Size(51, 39);
             BtnSearch.TabIndex = 2;
             BtnSearch.UseVisualStyleBackColor = true;
+            BtnSearch.Click += BtnSearch_Click;
             // 
             // TxtSearch
             // 
@@ -206,9 +207,9 @@
             label2.AutoSize = true;
             label2.Location = new Point(18, 12);
             label2.Name = "label2";
-            label2.Size = new Size(128, 20);
+            label2.Size = new Size(126, 20);
             label2.TabIndex = 0;
-            label2.Text = "Search Categories";
+            label2.Text = "Search Customers";
             // 
             // tabPageCustomersDetail
             // 

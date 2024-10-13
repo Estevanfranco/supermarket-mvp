@@ -161,6 +161,7 @@ namespace Supermarket_mvp.Views
 
         private void BtnSearch_Click(object sender, EventArgs e)
         {
+            BtnSearch.Click += delegate { SearchEvent?.Invoke(this, EventArgs.Empty); };
             TxtSearch.KeyDown += (s, e) =>
             {
                 if (e.KeyCode == Keys.Enter)
